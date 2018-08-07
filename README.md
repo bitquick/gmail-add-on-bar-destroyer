@@ -15,7 +15,7 @@ The script should also work on Firefox with [Greasemonkey](https://addons.mozill
 The add-on bar element can be found using the javascript `document.querySelector()` function by searching for `div.nH.bAw.nn`.
 If you try and hide or remove the add-on bar before the page loads the page will crash and cease to function. 
 The script simply waits for the Gmail page to be loaded and then removes the add-on bar div element from the DOM.
-It does this by searching for an element with the `.gb_Wa` class which happens to be the Gmail Logo at the top left hand corner of the page.  If it finds the element, I remove the element matching `div.nH.bAw.nn`.  
+It does this by searching for an element with the `.gb_Wa` class which happens to be the Gmail Logo at the top left hand corner of the page.  If it finds the Gmail logo element, I remove the add-on bar element matching `div.nH.bAw.nn` and the script exits.
 
 ### Support
 Let me know if you have any issues or contributions to make :D
