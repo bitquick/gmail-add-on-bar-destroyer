@@ -1,5 +1,7 @@
 # gmail-add-on-bar-destroyer
 
+**DEPRECATED** Fortunately, Google has added a native way to hide the Add-on bar in Gmail, so this script is no longer needed.
+
 This script simply removes the Gmail Add-On bar on the right hand side of the application in desktop web browsers.
 
 ### Why destroy the add-on bar?
